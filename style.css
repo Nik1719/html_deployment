@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #007acc, #68217a);
+  padding: 80px 0 70px;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 24px;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.18);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.hero-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  margin: 22px 0 14px;
+}
+
+.hero-subtitle {
+  max-width: 680px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Main */
+.main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 64px 24px;
+}
+
+.highlight {
+  background: linear-gradient(90deg, #e0f2fe, #f0f9ff);
+  padding: 36px;
+  border-radius: 18px;
+  margin-bottom: 40px;
+  border-left: 6px solid #2563eb;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+.highlight h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  margin-bottom: 18px;
+}
+
+.highlight p,
+.highlight li {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #334155;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.tech-card {
+  background: #d0ebff;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.tech-card h3 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+.tech-card ul {
+  padding-left: 18px;
+}
+
+/* Timeline */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.workflow-step {
+  text-align: center;
+  max-width: 520px;
+}
+
+.workflow-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-family: "JetBrains Mono", monospace;
+  margin-bottom: 10px;
+}
+
+.workflow-line {
+  width: 3px;
+  height: 36px;
+  background: linear-gradient(to bottom, #667eea, #764ba2);
+}
+
+/* Footer */
+.footer {
+  background: #020617;
+  color: #cbd5e1;
+  text-align: center;
+  padding: 28px;
+}
+
+.footer-sub {
+  font-size: 14px;
+  margin-top: 6px;
+}
